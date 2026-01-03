@@ -100,7 +100,7 @@ aws configure
 
 Create an EKS cluster with a managed node group:
 ```bash
-eksctl create cluster   --name enterprise-cluster   --region us-east-1   --nodegroup-name standard-workers   --node-type t3.medium   --nodes 3   --nodes-min 3   --nodes-max 6   --managed
+eksctl create cluster   --name enterprise-cluster   --region us-east-1   --nodegroup-name standard-workers   --node-type t3.micro   --nodes 3   --nodes-min 3   --nodes-max 6   --managed
 ```
 
 **Provisioning Time:** ~15–25 minutes
@@ -237,8 +237,4 @@ eksctl delete cluster --name enterprise-cluster --region us-east-1
 
 ---
 
-## Author
 
-**Henry Omu**  
-Cloud / DevOps Engineer  
-Amazon EKS • Kubernetes • Helm • AWS

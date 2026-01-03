@@ -51,6 +51,11 @@ WordPress Pods (Auto-Scaled)
 
 All tools are installed using **Homebrew**.
 
+### Verify AWS Config
+```bash
+aws sts get-caller-identity
+```
+
 ### Verify Homebrew
 ```bash
 brew --version

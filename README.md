@@ -1,4 +1,4 @@
-# Deploying WordPress on Amazon EKS Using Helm (MacOS)
+# Deploying WordPress on Amazon EKS Using Helm 
 
 ## Watch me perform this project here: 
 

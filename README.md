@@ -1,5 +1,7 @@
 # Deploying WordPress on Amazon EKS Using Helm (MacOS)
 
+## Watch me perform this project here: 
+
 ## Overview
 
 This project demonstrates how to deploy a production-ready **WordPress application** on **Amazon Elastic Kubernetes Service (EKS)** using **Helm** as the package manager.  
